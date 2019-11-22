@@ -10,7 +10,7 @@ locals {
 }
 
 resource ibm_is_vpc "vpc" {
-  name = "adadvpc"
+  name = "schematics-vpc"
 }
 
 resource ibm_is_security_group "sg1" {
